@@ -21,7 +21,7 @@ class AdressMatcher {
      }
 
      /**
-     * Hides the street name in the adress for security
+     * Hides the street name for security
      * @param  {string} streetName to be hidden in the address
      * @return the modified address
      */

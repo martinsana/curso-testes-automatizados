@@ -44,13 +44,14 @@ class StringManipulations {
     }
 
     /**
-     Given the string attribute of the class, return a string
+     Given a string, return a string
     where all occurences of its first char have
     been changed to '*', except do not change
     the first char itself.
     e.g. 'babble' yields 'ba**le'
+    * @param  {String} str1  
     * @return {String}
     */
-    fix_start() {}
+    fix_start(str1) {}
 
 }
