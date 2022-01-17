@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1642106166530" clover="3.2.0">
-  <project timestamp="1642106166531" name="All files">
-    <metrics statements="31" coveredstatements="26" conditionals="8" coveredconditionals="6" methods="11" coveredmethods="9" elements="50" coveredelements="41" complexity="0" loc="31" ncloc="31" packages="1" files="2" classes="2"/>
-    <file name="array.js" path="/Users/flaviajanine/Library/Mobile Documents/com~apple~CloudDocs/Documents/Personal/curso-testes-automatizados/Aula 2/array.js">
+<coverage generated="1642386224294" clover="3.2.0">
+  <project timestamp="1642386224294" name="All files">
+    <metrics statements="51" coveredstatements="45" conditionals="10" coveredconditionals="7" methods="19" coveredmethods="17" elements="80" coveredelements="69" complexity="0" loc="51" ncloc="51" packages="1" files="3" classes="3"/>
+    <file name="array.js" path="C:\Users\vntanpa\Desktop\cypress-fase-especialista\curso-testes-automatizados\Aula 2\array.js">
       <metrics statements="24" coveredstatements="19" conditionals="8" coveredconditionals="6" methods="9" coveredmethods="7"/>
       <line num="9" count="2" type="stmt"/>
       <line num="10" count="2" type="stmt"/>
@@ -29,7 +29,30 @@
       <line num="81" count="0" type="stmt"/>
       <line num="87" count="1" type="stmt"/>
     </file>
-    <file name="developers.js" path="/Users/flaviajanine/Library/Mobile Documents/com~apple~CloudDocs/Documents/Personal/curso-testes-automatizados/Aula 2/developers.js">
+    <file name="atividade1.js" path="C:\Users\vntanpa\Desktop\cypress-fase-especialista\curso-testes-automatizados\Aula 2\atividade1.js">
+      <metrics statements="20" coveredstatements="19" conditionals="2" coveredconditionals="1" methods="8" coveredmethods="8"/>
+      <line num="9" count="1" type="stmt"/>
+      <line num="18" count="1" type="stmt"/>
+      <line num="19" count="1" type="stmt"/>
+      <line num="20" count="1" type="stmt"/>
+      <line num="21" count="6" type="stmt"/>
+      <line num="33" count="1" type="stmt"/>
+      <line num="34" count="1" type="stmt"/>
+      <line num="35" count="1" type="stmt"/>
+      <line num="36" count="6" type="stmt"/>
+      <line num="47" count="1" type="stmt"/>
+      <line num="48" count="1" type="stmt"/>
+      <line num="62" count="1" type="cond" truecount="1" falsecount="1"/>
+      <line num="63" count="0" type="stmt"/>
+      <line num="65" count="1" type="stmt"/>
+      <line num="78" count="1" type="stmt"/>
+      <line num="79" count="1" type="stmt"/>
+      <line num="80" count="1" type="stmt"/>
+      <line num="81" count="1" type="stmt"/>
+      <line num="82" count="1" type="stmt"/>
+      <line num="87" count="1" type="stmt"/>
+    </file>
+    <file name="developers.js" path="C:\Users\vntanpa\Desktop\cypress-fase-especialista\curso-testes-automatizados\Aula 2\developers.js">
       <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
       <line num="1" count="1" type="stmt"/>
       <line num="11" count="2" type="stmt"/>

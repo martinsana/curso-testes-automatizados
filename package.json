@@ -17,12 +17,17 @@
   },
   "homepage": "https://github.com/flaviajanine/curso-testes-automatizados#readme",
   "devDependencies": {
-    "jest": "^27.4.7"
+    "jest": "^27.4.7",
+    "string.prototype.replaceall": "^1.0.6"
   },
   "dependencies": {},
   "jest": {
-    "modulePathIgnorePatterns": ["<rootDir>/Aula 1"],
+    "modulePathIgnorePatterns": [
+      "<rootDir>/Aula 1"
+    ],
     "collectCoverage": true,
-    "coverageReport": ["html"]
+    "coverageReport": [
+      "html"
+    ]
   }
 }
