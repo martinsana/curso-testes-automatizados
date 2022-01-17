@@ -34,6 +34,13 @@ describe("String Manipulations", () => {
  
     });
 
+    it('should returns an empty string', () => {   
+        string = "M";
+        stringManipulations = new StringManipulations(string); 
+        expect(stringManipulations.both_ends()).toEqual("");
+ 
+    });
+
     it('a string where all occurences of its first char have been changed to "*", except do not change the first char itself', () => {   
         const output = "blue has a blue house";
         expect(stringManipulations.fix_start(output)).toEqual("blue has a *lue house");

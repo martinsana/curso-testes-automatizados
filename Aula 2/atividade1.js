@@ -23,7 +23,6 @@ class StringManipulations {
         
     }
 
-
     /**
      * Returns the last substring that matches the given string
      * @param  {String} subStr  substring to be matched
@@ -58,7 +57,6 @@ class StringManipulations {
     * @return {String}
     */
     both_ends() {
-
         if ((this.string.length) < 2) {
             return "";
         }
