@@ -20,7 +20,7 @@ describe("Class consumer - constructor and findStreetName tests", () => {
         mockAdressMatcherMethods.mockClear();             
     });
 
-    it('should call the StringManipulations instance in the constructor of Atividade1ClassConsumer class', () => {
+    it('should call the StringManipulations instance in the constructor of AdressMatcher class', () => {
         const adressMatcher = new AdressMatcher();
         expect(StringManipulations).toHaveBeenCalledTimes(1);
     });
