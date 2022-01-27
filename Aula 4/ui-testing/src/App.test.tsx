@@ -24,13 +24,26 @@ class Page {
   }
 }
 
+class Form {
+  appElements: any;
+  newForm: any;
+  newButton: any; 
+
+  constructor(component: any) {    
+    this.appElements = component.getElement().props.children;
+    this.newForm = this.appElements.find((el: { type: string; }) => el.type === 'form');
+    this.newButton = this.appElements.find((el: { type: string; }) => el.type === 'a');
+  
+  }
+}
+
 test('header Developers App to be on screen', () => {
   render(<App />);
   const developerText = screen.getByText(/Developers App/);
   expect(developerText).toBeInTheDocument();
 });
 
-test('input label to be on screen', () => {
+/*test('input label to be on screen', () => {
   render(<App />);
   const labelText = screen.getByText(/Type the skill you would like to search/);
   expect(labelText).toBeInTheDocument();
@@ -54,4 +67,22 @@ describe('Test page object', () => {
   test('elements are created correctly page object', () => {
     expect(page.input.props.id).toBe('input-skill');
   });
+});
+*/
+
+
+describe('Test page object to Form component and button', () => { 
+  const component = setup();
+  const form = new Form(component);
+  
+
+  test('element form is created correctly', () => {
+    expect(form.newForm.props.id).toBe('addSkill');     
+  
+  });
+
+  test('buttons are created correctly', () => {
+    expect(form.newButton.props.id).toBe('load-skills-button');
+  });
+  
 });

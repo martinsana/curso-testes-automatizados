@@ -83,27 +83,26 @@ const App = () => {
           <h1>
             Developers App
           </h1>
-      </header>
+        </header>
             
-            <form>
-              <label>Skill Name</label>
-              <input className='input1' name="skillName"></input>
+         <form id="addSkill">
+          <label>Skill Name</label>
+          <input id="skillName" className='input1' name="skillName"></input>
 
-              <label>Developers</label>
-              <input id="developers" className='input1'  name="developers"></input>
+          <label>Developers</label>
+          <input id="developers" className='input1'  name="developers"></input>
   
-              <label>Technologies</label>
-              <input id="technologies" className='input1'  name="technologies"></input>
+          <label>Technologies</label>
+          <input id="technologies" className='input1'  name="technologies"></input>
   
-              <label>Roles</label>
-              <input id="roles" className='input1'  name="roles"></input>
-  
-              <a type="button" id="load-skills-button" className="button1" onClick={() => loadSkills()}>Register</a>
-              {showSkill? name : ''}
-              {showSkills? listSkills: ''}
+          <label>Roles</label>
+          <input id="roles" className='input1'  name="roles"></input>
+        </form>
 
-            </form>
-    </div>
+        <a id="load-skills-button" className="button1" onClick={() => loadSkills()}>Add Skill</a>
+        {showSkill? name : ''}
+        {showSkills? listSkills: ''}
+      </div>
     );
 }
 
