@@ -77,7 +77,7 @@ describe('Test page object to Form component and button', () => {
   
 
   test('element form is created correctly', () => {
-    expect(form.newForm.props.id).toBe('addSkills');     
+    expect(form.newForm.props.id).toBe('addSkill');     
   
   });
 
