@@ -1,6 +1,6 @@
 describe('App Developers Skills', () => {
 
-    beforeEach(() => {
+    before(() => {
         cy.visit('http://localhost:3000/');
     });   
       
@@ -13,7 +13,7 @@ describe('App Developers Skills', () => {
         cy.get('#addSkill').should('be.visible');
                     
     });
-      
+         
     it('should display all the inputs', () => {
         cy.get('#skillName').should('be.visible');
         cy.get('#developers').should('be.visible'); 
@@ -28,7 +28,11 @@ describe('App Developers Skills', () => {
         cy.get('#roles').type('Senior');
         cy.get('#load-skills-button').click();        
         
-    });
+    });       
        
-    
+    it('should show the skill list when clicked Add skill button', () => {
+        cy.get('#load-skills-button').click();
+        cy.get('li').should('not.have.value', 'front end');     
+        
+    });
 });
