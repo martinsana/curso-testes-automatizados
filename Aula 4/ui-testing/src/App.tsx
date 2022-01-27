@@ -85,7 +85,7 @@ const App = () => {
           </h1>
         </header>
             
-         <form id="addSkill">
+         <form id="addSkill" className="form1">
           <label>Skill Name</label>
           <input id="skillName" className='input1' name="skillName"></input>
 

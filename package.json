@@ -20,7 +20,9 @@
     "jest": "^27.4.7",
     "string.prototype.replaceall": "^1.0.6"
   },
-  "dependencies": {},
+  "dependencies": {
+    "jest-stare": "^2.3.0"
+  },
   "jest": {
     "modulePathIgnorePatterns": [
       "<rootDir>/Aula 1"

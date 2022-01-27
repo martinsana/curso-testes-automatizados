@@ -81,7 +81,7 @@ describe('Test page object to Form component and button', () => {
   
   });
 
-  test('buttons are created correctly', () => {
+  test('button is created correctly', () => {
     expect(form.newButton.props.id).toBe('load-skills-button');
   });
   
