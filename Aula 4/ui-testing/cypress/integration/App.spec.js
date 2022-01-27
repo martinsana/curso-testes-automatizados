@@ -43,7 +43,7 @@ describe('App Developers Skills', () => {
     });
 
     it('should return the inputted technology', () => {
-        cy.typeText('#input-technology', 'React');
+        cy.typeText('#skillName', 'front-end');
         cy.get('#load-skills-button').click();
         cy.get('li').should('be.visible');
         cy.contains('React');
