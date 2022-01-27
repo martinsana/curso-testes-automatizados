@@ -39,7 +39,7 @@ jobs:
         uses: cypress-io/github-action@v2
         with:
           working-directory: ./Aula 4/ui-testing
-          #build: npm run build
+          build: npm run build
           start: npm start
           run: npm run cypress
 
