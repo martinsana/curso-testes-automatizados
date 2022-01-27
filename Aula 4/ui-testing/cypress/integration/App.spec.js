@@ -32,7 +32,7 @@ describe('App Developers Skills', () => {
        
     it('should show the skill list when clicked Add skill button', () => {
         cy.get('#load-skills-button').click();
-        cy.get('li').should('not.have.value', 'front end');     
+        cy.get('li').should('have.value', 'front end');     
         
     });
 });
