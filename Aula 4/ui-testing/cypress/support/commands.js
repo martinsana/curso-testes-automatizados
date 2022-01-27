@@ -13,6 +13,10 @@
 Cypress.Commands.add('clickButton', (label) => {
     cy.get('a').contains(label).click();
   });
+
+Cypress.Commands.add('typeText', (selector, text) => {
+    cy.get(selector).type(text);  
+  });
 //
 // -- This is a child command --
 // Cypress.Commands.add('drag', { prevSubject: 'element'}, (subject, options) => { ... })

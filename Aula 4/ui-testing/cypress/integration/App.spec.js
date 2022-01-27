@@ -42,6 +42,14 @@ describe('App Developers Skills', () => {
         cy.get('ul').should('be.visible');
     });
 
+    it('should return the inputted technology', () => {
+        cy.typeText('#input-technology', 'React');
+        cy.get('#load-skills-button').click();
+        cy.get('li').should('be.visible');
+        cy.contains('React');
+
+    });
+
     /*it('should load one skill after input and click search button', () => {
         cy.get('#skillName').type('front-end');
         cy.get('#search-button').click();
