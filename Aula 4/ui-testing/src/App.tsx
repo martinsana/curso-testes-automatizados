@@ -58,7 +58,7 @@ const App = () => {
     </li>
   </ul></>;
   
-  function loadSkill() {
+  /*function loadSkill() {
     setShowSkill(true);
     setShowSkills(false);
     fetch('https://61e4d942595afe00176e51cb.mockapi.io/api/v1/skill')
@@ -66,7 +66,7 @@ const App = () => {
       .then(data => {
         setSkillData(data[0]);
         });
-  }
+  }*/
   function loadSkills() {
     setShowSkill(false);
     setShowSkills(true);
